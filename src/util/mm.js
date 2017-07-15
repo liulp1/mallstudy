@@ -2,7 +2,7 @@
  * @Author: liulp1
  * @Date:   2017-07-10 20:52:36
  * @Last Modified by:   liulp1
- * @Last Modified time: 2017-07-11 15:12:54
+ * @Last Modified time: 2017-07-13 22:15:08
  */
 
 'use strict';
@@ -76,7 +76,7 @@ var _mm = {
     },
     // 统一登陆处理
     doLogin: function(){
-        window.location.href = './login.html?redirect' + encodeURIComponent(window.location.href);
+        window.location.href = './user-login.html?redirect' + encodeURIComponent(window.location.href);
     },
     goHome : function(){
         window.location.href = './index.html';

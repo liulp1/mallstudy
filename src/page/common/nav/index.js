@@ -2,7 +2,7 @@
 * @Author: liulp1
 * @Date:   2017-07-12 13:03:24
 * @Last Modified by:   liulp1
-* @Last Modified time: 2017-07-12 20:43:45
+* @Last Modified time: 2017-07-14 13:22:53
 */
 
 'use strict';
@@ -25,7 +25,7 @@ var nav = {
 		});
 		// 注册
 		$('.js-register').click(function(){
-			window.location.href = './register.html';
+			window.location.href = './user-register.html';
 		});
 		// 退出
 		$('.js-logout').click(function(){
