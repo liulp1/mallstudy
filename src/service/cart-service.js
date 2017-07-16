@@ -2,7 +2,7 @@
 * @Author: liulp1
 * @Date:   2017-07-12 14:23:13
 * @Last Modified by:   liulp1
-* @Last Modified time: 2017-07-12 14:30:12
+* @Last Modified time: 2017-07-17 01:08:40
 */
 
 'use strict';
@@ -14,6 +14,15 @@ var _cart = {
 	getCartCount : function(resolve,reject){
 		_mm.request({
 			url 	 : _mm.getServerUrl('/cart/get_cart_product_count.do'),
+			success  : resolve,
+			error 	 : reject
+		});
+	},
+	// 添加购物车
+	addToCart : function(productInfo,resolve,reject){
+		_mm.request({
+			url 	 : _mm.getServerUrl('/cart/add.do'),
+			data     : productInfo,
 			success  : resolve,
 			error 	 : reject
 		});
