@@ -2,7 +2,7 @@
 * @Author: liulp1
 * @Date:   2017-07-13 11:37:42
 * @Last Modified by:   liulp1
-* @Last Modified time: 2017-07-15 21:42:39
+* @Last Modified time: 2017-07-19 22:47:55
 */
 
 'use strict';
@@ -15,7 +15,7 @@ var navSide = {
 		name : '',
 		navList : [
 			{name : 'user-center', desc : '个人中心',href : './user-center.html'},
-			{name : 'order-List', desc : '我的订单',href : './order-List.html'},
+			{name : 'order-List', desc : '我的订单',href : './order-list.html'},
 			{name : 'user-pass-update', desc : '修改密码',href : './user-pass-update.html'},
 			{name : 'about', desc : '关于MallStudy',href : './about.html'}
 		]
